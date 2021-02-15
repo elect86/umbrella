@@ -184,3 +184,6 @@ log.txt
 
 # ExampleRunner logs
 ExampleRunner-*/
+
+**/.build
+**/.gradle

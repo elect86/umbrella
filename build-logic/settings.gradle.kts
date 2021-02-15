@@ -1,9 +1,4 @@
-//dependencyResolutionManagement {
-//    repositories {
-//        gradlePluginPortal()
-//        google()
-//    }
-//}
+dependencyResolutionManagement.repositories.gradlePluginPortal()
 
 rootProject.name = "build-logic"
 
