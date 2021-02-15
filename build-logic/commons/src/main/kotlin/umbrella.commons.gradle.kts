@@ -14,7 +14,7 @@ java {
 dependencies {
     implementation(platform("sciJava.platform:sciJava-platform"))
 
-    implementation(imagej.launcher)
+//    implementation(imagej.launcher)
 
 //    testImplementation(platform("com.example.platform:test-platform"))
 //    testImplementation("org.junit.jupiter:junit-jupiter-api")
