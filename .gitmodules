@@ -1,3 +1,6 @@
 [submodule "sciJava-platform"]
 	path = sciJava-platform
 	url = https://github.com/elect86/sciJava-platform
+[submodule "sciJava-catalogs"]
+	path = sciJava-catalogs
+	url = https://github.com/elect86/sciJava-catalogs

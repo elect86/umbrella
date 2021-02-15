@@ -1,3 +1,4 @@
+
 plugins {
     java
 //    id("com.example.jacoco")
@@ -11,8 +12,10 @@ java {
 }
 
 dependencies {
-//    implementation(platform("com.example.platform:product-platform"))
-//
+    implementation(platform("sciJava.platform:sciJava-platform"))
+
+//    implementation(imagej.launcher)
+
 //    testImplementation(platform("com.example.platform:test-platform"))
 //    testImplementation("org.junit.jupiter:junit-jupiter-api")
 //    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
