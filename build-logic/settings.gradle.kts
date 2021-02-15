@@ -1,21 +1,13 @@
 
 dependencyResolutionManagement.repositories.gradlePluginPortal()
 
-//pluginManagement {
-//    resolutionStrategy {
-//        eachPlugin {
-//            if(requested.id.id == "sciJava.catalogs")
-//                useModule("sciJava.catalogs:sciJava-catalogs:0.0.1")
-//        }
-//    }
-////    repositories {
-////        gradlePluginPortal()
-////        maven("https://jitpack.io")
-////    }
-//}
+pluginManagement {
+    includeBuild("../sciJava-catalogs")
+}
 
-//plugins { id("sciJava.catalogs") }
+plugins { id("sciJava.catalogs") }
 
 rootProject.name = "build-logic"
 
 include("commons")
+//includeBuild("../sciJava-catalogs")
